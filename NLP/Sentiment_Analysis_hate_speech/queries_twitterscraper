@@ -1,0 +1,28 @@
+twitterscraper \
+"Coronavirus AND Italians" \
+-l 4000 \
+-bd 2020-01-01 -ed 2020-01-31 \
+-p 31 \
+--lang en \
+-o ./Repositories/ML_projects/Mind7/Sentiment_Analysis/data/tweets_italians_coronavirus_01_2020.json
+
+twitterscraper \
+"Coronavirus AND Italians" \
+-l 4000 \
+-bd 2020-02-01 -ed 2020-02-29 \
+-p 31 \
+--lang en \
+-o ./Repositories/ML_projects/Mind7/Sentiment_Analysis/data/tweets_italians_coronavirus_02_2020.json
+
+twitterscraper \
+"Coronavirus AND Italians" \
+-l 4000 \
+-bd 2020-03-01 -ed 2020-03-31 \
+-p 31 \
+--lang en \
+-o ./Repositories/ML_projects/Mind7/Sentiment_Analysis/data/tweets_italians_coronavirus_03_2020.json
+
+
+$.*.text
+$.*.timestamp
+$.*.timestamp_epochs
