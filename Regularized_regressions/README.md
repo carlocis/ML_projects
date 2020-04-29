@@ -34,7 +34,7 @@ Les modèles linéaires sont populaires pour estimer une variable cible continue
 
 Comme on l’a vu précédemment, le modèle linéaire s’écrit de la manière suivante :
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;Y_i=\beta_{0}+X_{i,1}\beta_1+...+X_{i,p}\beta_p+\epsilon_i\forall{i}\in[[1,n]]" />
+<img src="https://microsoft.codecogs.com/svg.latex?\Large&space;Y_i=\beta_{0}+X_{i,1}\beta_1+...+X_{i,p}\beta_p+\epsilon_i\forall{i}\in[[1,n]]" />
 
 
 Ou sous forme matricielle :
